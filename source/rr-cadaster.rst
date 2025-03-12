@@ -129,7 +129,7 @@
 В карточке объекта отображается статистика: для кадастрового округа, например, будет указано, сколько кварталов, участков и ОКС он включает в себя.
 
 .. figure:: _static/search_object_stat_ru.png
-   :name: search_object
+   :name: search_object_stat_pic
    :align: center
    :width: 22cm
 
