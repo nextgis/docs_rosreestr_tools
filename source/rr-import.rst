@@ -20,6 +20,8 @@
 * Выписка о земельном участке: `extract_about_property_land <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_about_property_land_v01.rar>`_ 
 * Выписка об объекте недвижимости (сооружении): `extract_about_property_construction <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_about_property_construction_v01.rar>`_ 
 * Выписка об объекте недвижимости (здании): `extract_about_property_build <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_about_property_build_v01.rar>`_
+* Выписка об основных характеристиках и зарегистрированных правах на объект недвижимости (помещение): `extract_base_params_room <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_base_params_room_v01.rar>`_
+* Выписка об основных характеристиках и зарегистрированных правах на объект недвижимости (объект незавершенного строительства): `extract_base_params_under_construction <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_base_params_under_construction_v01.rar>`_
 * Выписка о характеристиках и правах на земельный участок: `extract_base_params_land <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_base_params_land_v01.rar>`_ 
 * Выписка о характеристиках и правах на объект недвижимости (здании): `extract_base_params_build <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_base_params_build_v01.rar>`_ 
 * Выписка о базовых параметрах: extract_base_params_const
