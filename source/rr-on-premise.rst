@@ -9,13 +9,17 @@
 Некоторые функции NGQ Rosreestr Tools требуют наличия активного соединения с серверами NextGIS и без него не работают. 
 Для организации подобного взаимодействия необходимо связать глобальные сервисы NextGIS и NextGIS ID на своем сервере. 
 
-Технически, необходимо:
+Технически, администратору необходимо:
 
 1. Создать глобальный аккаунт `my.nextgis.com <https://my.nextgis.com>`_ если его еще нет.
 2. Сообщить через `систему поддержки <https://nextgis.ru/terms-support>`_ о создании аккаунта, запросить перевод на Premium.
 3. Дождаться уведомления о переводе на Premium.
-4. В NextGIS QGIS в разделе *Настройки > Параметры > NextGIS* поменять Endpoint на ваш сервер авторизации `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/ngidop.html>`_
-5. Скопировать `ключ доступа <https://docs.nextgis.ru/docs_ngid/source/ngidop.html#nextgis-id-on-premise>`_ из NGID (система управления пользователями, размещающаяся на вашем сервере) и добавить его в `настройки <https://my.nextgis.com/myngidonpremises>`_ NextGIS ID on-premise.
+4. Скопировать `ключ доступа <https://docs.nextgis.ru/docs_ngid/source/ngidop.html#nextgis-id-on-premise>`_ из NGID (система управления пользователями, размещающаяся на вашем сервере) и добавить его в `настройки <https://my.nextgis.com/myngidonpremises>`_ NextGIS ID on-premise.
+
+На каждом устройстве, где установлен NextGIS QGIS, пользователю необходимо:
+
+1. В NextGIS QGIS в разделе *Настройки > Параметры > NextGIS* поменять Endpoint на ваш сервер авторизации `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/ngidop.html>`_
+2. Авторизоваться в панели NextGIS Account Toolbar под логином и паролем, созданным для пользователя администратором на NextGIS ID on-premise.
 
 После этого запросы из NGQ Rosreestr Tools с рабочих мест внутри корпоративной сети к глобальным сервисам NextGIS должны заработать.
 
