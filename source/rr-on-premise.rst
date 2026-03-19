@@ -16,7 +16,7 @@
 3. Дождаться уведомления о переводе на Premium.
 4. Скопировать `ключ доступа <https://docs.nextgis.ru/docs_ngid/source/ngidop.html#nextgis-id-on-premise>`_ из NGID (система управления пользователями, размещающаяся на вашем сервере) и добавить его в `настройки <https://my.nextgis.com/myngidonpremises>`_ NextGIS ID on-premise.
 
-На каждом устройстве, где установлен NextGIS QGIS, пользователю необходимо:
+Пользователям NextGIS QGIS необходимо, получив соответствующую информацию от администратора:
 
 1. В NextGIS QGIS в разделе *Настройки > Параметры > NextGIS* поменять Endpoint на ваш сервер авторизации `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/ngidop.html>`_
 2. Авторизоваться в панели NextGIS Account Toolbar под логином и паролем, созданным для пользователя администратором на NextGIS ID on-premise.
