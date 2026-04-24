@@ -14,7 +14,7 @@
 1. Создать глобальный аккаунт `my.nextgis.com <https://my.nextgis.com>`_ если его еще нет.
 2. Сообщить через `систему поддержки <https://nextgis.ru/terms-support>`_ о создании аккаунта, запросить перевод на Premium.
 3. Дождаться уведомления о переводе на Premium.
-4. Скопировать `ключ доступа <https://docs.nextgis.ru/docs_ngid/source/ngidop.html#nextgis-id-on-premise>`_ из NGID (система управления пользователями, размещающаяся на вашем сервере) и добавить его в `настройки <https://my.nextgis.com/myngidonpremises>`_ NextGIS ID on-premise.
+4. Убедиться, что в `настройках <https://my.nextgis.com/myngidonpremises>`_ NextGIS ID on-premise личного кабинета появился специальный GUID. Если нет - написать нам об этом.
 
 Пользователям NextGIS QGIS необходимо, получив соответствующую информацию от администратора:
 
